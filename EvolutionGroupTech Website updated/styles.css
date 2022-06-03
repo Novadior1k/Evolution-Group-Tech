@@ -1,0 +1,62 @@
+
+body {
+    margin: 0;
+    background: #222;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 110;
+}
+
+
+header {
+   background: rgb(205, 199, 199)
+    
+}
+
+.header_content{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header fix not appering */
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* ---------------------  */
+.logo {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+.nav_list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav_liclass{
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 15px;
+}
+
+.nav_links {
+    text-decoration: none;
+    color: #2d2d2d
+}
+
+
+/* Hovering */
+
+.nav_liclass:hover > .nav_links {
+    background-color: rgb(136, 24, 24);
+    padding: 18px;
+}
+
+/* ----------------- */
